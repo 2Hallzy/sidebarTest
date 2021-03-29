@@ -1,0 +1,51 @@
+.weatherPanel {
+  margin-bottom: 20px;
+}
+
+.weatherHeader {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-text-dark);
+  padding: 50px 25px 20px 25px;
+}
+
+.weatherData {
+  display: flex;
+  flex-direction: column;
+}
+
+.locationName {
+  font-size: 1.2em;
+}
+
+.temperature {
+  font-size: 2.5em;
+}
+
+.weatherIcon {
+  width: 48%;
+}
+
+.temperature {
+  color: var(--color-text-light);
+}
+
+.date {
+  font-size: 0.9em;
+}
+
+.conditionTable {
+  border: none;
+  text-align: start;
+  border-spacing: 40px 0px;
+  color: var(--color-text-light);
+}
+
+.conditionTable tr td:first-child {
+  color: var(--color-text-dark);
+}
+
+.tomorrowWeatherIcon {
+  width: 35%;
+  margin-bottom: -5px;
+}

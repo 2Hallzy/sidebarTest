@@ -1,0 +1,25 @@
+.sidebar {
+  background-color: #0b0c10;
+  width: 350px;
+  min-height: 100vh;
+  height: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+.sidebarHeader {
+  padding: 40px 0px 0px 20px;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sidebarHeader img {
+  width: 8%;
+  margin: -5px;
+  transform: rotate(-90deg);
+}

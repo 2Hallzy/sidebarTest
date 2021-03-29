@@ -1,0 +1,32 @@
+.accordion {
+  background-color: var(--color-background-light);
+  border: 1px solid var(--color-text-dark);
+  margin: 10px 20px;
+}
+
+.accordion h2 {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.accordionHeader {
+  border-style: none none solid none;
+  border: 1px var(--color-text-dark);
+  padding: 5px 15px;
+  height: 50px;
+  color: #bfc8d1;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordionBody {
+  border: 1px var(--color-text-dark);
+  border-top-style: solid;
+}
+
+img {
+  width: 6%;
+  transition: transform 0.1s;
+}

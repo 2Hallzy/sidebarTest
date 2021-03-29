@@ -1,0 +1,35 @@
+.chart {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  --pie-diameter: 200px;
+  --pie-hole-diameter: 65%;
+}
+
+.pie {
+  height: var(--pie-diameter);
+  width: var(--pie-diameter);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 50px;
+}
+
+.hole {
+  height: var(--pie-hole-diameter);
+  width: var(--pie-hole-diameter);
+  border-radius: 50%;
+  background-color: var(--color-background-light);
+}
+
+.percentMarker {
+  color: #87d2ce;
+  position: absolute;
+  transition: transform 0.2s;
+}

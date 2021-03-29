@@ -1,0 +1,58 @@
+.route {
+  color: var(--color-text-dark);
+  padding: 5px;
+}
+
+.routeHeader {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 5px;
+}
+
+.dotIndicator {
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.routeName {
+  color: var(--color-text-light);
+  font-size: 1.3em;
+  margin-left: 5px;
+}
+
+.routeDistance {
+  color: var(--color-text-dark);
+  margin-left: auto;
+}
+
+.routeBody {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.routeEndpoints {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 6px;
+}
+
+.trafficArrow {
+  width: 8%;
+  transform: rotate(-90deg);
+}
+
+.routeTime {
+  font-size: 1.75em;
+  margin-left: auto;
+  color: var(--color-text-light);
+}
+
+.routeTime span {
+  font-size: 0.5em;
+}
